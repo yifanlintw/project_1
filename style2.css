@@ -1,0 +1,309 @@
+/*  GLOBAL PROPERTIES */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/*.flex.space-between {
+    justify-content: space-between;
+    
+    padding: 40px 20px;
+}
+.flex.wrap {
+    flex-wrap: wrap;
+  } 
+.flex.space-evenly {
+    justify-content: space-evenly;
+}  
+*/
+
+
+/* LAYOUT */
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+/* HEADER LAYOUT */
+
+.header {
+    background: #6A7B8B;
+    width: 100%;
+}
+
+.logo_left {
+    padding: 10px 6%;
+    height: 56px;
+}
+
+
+/* NAV LAYOUT */
+
+nav {
+    float: right;
+    padding: 40px 20px;
+}
+
+nav>div>a:not(:last-child) {
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.logo_mrcoffee {
+    padding: 1% 43%;
+    align-items: center;
+    height: 207px;
+}
+
+
+/* HOMEPAGE LAYOUT */
+
+.maintext {
+    position: relative;
+    text-align: center;
+    height: 55px;
+    font: 40px 'AvenirNext';
+    line-height: 47px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mainpic {
+    width: 1247px;
+    height: 795px;
+    padding: 3%;
+}
+
+.middletext {
+    font: Bold 40px 'AvenirNext';
+    text-align: center;
+    color: #5C5B5B;
+    text-shadow: 0px 2px 4px rgba(248, 248, 248, 0.5);
+}
+
+
+/* Cards */
+
+.card {
+    width: 386px;
+    height: 418px;
+    background: rgba(106, 123, 139, 0.420127);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    float: left;
+    margin: 30px;
+    text-align: center;
+}
+
+.icon_cards {
+    align-items: center;
+    width: 122px;
+    height: 122px;
+    margin: 30px 50px;
+}
+
+.title_cards {
+    font: Bold 24px 'AvenirNext';
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text_cards {
+    font: Bold 16px 'AvenirNext';
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 30px 70px;
+}
+
+
+/* Content */
+
+.prog {
+    width: 332px;
+    height: 77px;
+    background: #6A7B8B;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    margin: 30px 500px;
+}
+
+.prog1 {
+    font: 26px 'AvenirNext';
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 25px;
+}
+
+.prog2 {
+    font: Bold 40px 'AvenirNext';
+    line-height: 47px;
+    color: #5C5B5B;
+    text-shadow: 0px 2px 4px rgba(248, 248, 248, 0.5);
+    text-align: center;
+}
+
+.open_img_text {
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin: 20px 200px;
+}
+
+.open {
+    width: 107px;
+    height: 107px;
+}
+
+.open_text {
+    font: Bold 26px 'AvenirNext';
+    color: #5C5B5B;
+    padding: 60px 40px;
+}
+
+
+/* Text_grid */
+
+.text_grid {
+    color: #5C5B5B;
+    font: Bold 26px 'AvenirNext';
+    line-height: 30px;
+}
+
+.title_grid_one {
+    display: flex;
+    float: left;
+    text-align: center;
+    margin: 200px 180px;
+}
+
+.text_grid_in {
+    display: flex;
+    float: left;
+    text-align: center;
+    margin: 100px;
+}
+
+.text_bottom_1 {
+    font-family: 26px 'AvenirNext';
+    line-height: 30px;
+    color: #5C5B5B;
+    text-align: center;
+    margin: 50px 350px;
+}
+
+.text_bottom_2 {
+    font: Bold 26px 'AvenirNext';
+    line-height: 30px;
+    color: #5C5B5B;
+    text-align: center;
+    margin: 50px 350px;
+}
+
+
+/*ABOUT LAYOUT*/
+
+.sec {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'AvenirNext';
+    color: #5C5B5B;
+    padding: 5% 5%;
+}
+
+.subtitle {
+    font: 40px Bold;
+}
+
+.subtext {
+    font: 24px normal;
+}
+
+.cafe_pic {
+    width: 505px;
+    height: 756.42px;
+    padding: 5% 5%;
+}
+
+.salle_pic {
+    width: 535px;
+    height: 612.48px;
+    padding: 5% 5%;
+}
+
+
+/* COONTANCT LAYOUT */
+
+.welcome {
+    font: 50px 'AvenirNext';
+    color: #5C5B5B;
+    text-align: center;
+}
+
+.details {
+    font: 26px 'AvenirNext';
+    color: #5C5B5B;
+    margin: 5% 20%;
+}
+
+.map {
+    width: 810px;
+    height: 608px;
+    margin: 5% 20%;
+}
+
+
+/* FOOTER LAYOUT */
+
+.footer {
+    background: #6A7B8B;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+}
+
+.logoblanc {
+    padding: 10px 6%;
+    height: 56px;
+}
+
+.icons {
+    padding: 0 350px;
+}
+
+.footer_text {
+    font: 15px 'AvenirNext';
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.socialimgs {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia {
+    height: 26px;
+    margin: 10px 20px;
+}
