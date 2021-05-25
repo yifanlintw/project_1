@@ -30,7 +30,7 @@
 
 body {
     background-color: #F5F5F5;
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -85,14 +85,14 @@ nav a {
     position: absolute;
     top: 400px;
     left: 300px;
-    font: 40px 'AvenirNext';
+    font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
     text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .middletext {
-    font: Bold 40px 'AvenirNext';
+    font: Bold 40p;
     text-align: center;
     color: #5C5B5B;
     text-shadow: 0px 2px 4px rgba(248, 248, 248, 0.5);
@@ -120,7 +120,7 @@ nav a {
 }
 
 .title_cards {
-    font: Bold 24px 'AvenirNext';
+    font: Bold 24px;
     line-height: 28px;
     color: #FFFFFF;
     text-align: center;
@@ -128,7 +128,7 @@ nav a {
 }
 
 .text_cards {
-    font: Bold 16px 'AvenirNext';
+    font: Bold 16px;
     line-height: 19px;
     color: #FFFFFF;
     margin: 30px 70px;
@@ -148,14 +148,14 @@ nav a {
 }
 
 .prog1 {
-    font: Bold 26px 'AvenirNext';
+    font: Bold 26px;
     line-height: 30px;
     color: #FFFFFF;
     margin: 25px;
 }
 
 .prog2 {
-    font: Bold 40px 'AvenirNext';
+    font: Bold 40px;
     line-height: 47px;
     color: #5C5B5B;
     text-shadow: 0px 2px 4px rgba(248, 248, 248, 0.5);
@@ -175,7 +175,7 @@ nav a {
 }
 
 .open_text {
-    font: Bold 26px 'AvenirNext';
+    font: Bold 26px;
     color: #5C5B5B;
     padding: 60px 40px;
 }
@@ -185,7 +185,7 @@ nav a {
 
 .text_grid {
     color: #5C5B5B;
-    font: Bold 26px 'AvenirNext';
+    font: Bold 26px;
     line-height: 30px;
 }
 
@@ -307,8 +307,4 @@ nav a {
 .socialmedia {
     height: 26px;
     margin: 10px 20px;
-}
-
-margin: 10px 20px;
-
 }
